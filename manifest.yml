@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-vcap-vars
+  random-route: true
+  buildpack: python_buildpack
+  stack: cflinuxfs3
+  command: python main.py
